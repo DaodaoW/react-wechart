@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://apiv3.bltyun.com/';

@@ -1,0 +1,15 @@
+.tips {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.tips :nth-child(1) {
+  padding-right: 1rem;
+  color: #999999;
+}
+
+/* .tips :nth-child(2) {
+  color: #006CFF;
+} */

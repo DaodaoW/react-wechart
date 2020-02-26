@@ -1,0 +1,41 @@
+.blockpage {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1rem;
+  justify-content: space-around;
+  /* background: red; */
+}
+
+.line {
+  height: 100%;
+  border-left: 1px solid #E5E5E5;
+}
+
+.changeBtn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+
+.showaccount {
+  text-align: center;
+}
+
+.showaccount p {
+  margin: 0;
+}
+
+.showaccount p:nth-child(2) {
+  margin: 0.8rem 0;
+}
+
+.isbindinput {
+  width: 100%;
+  height: 2.5rem;
+  outline: none;
+  border: 0;
+  background: #EEEEEE;
+  font-size: 1rem;
+  text-align: center;
+}

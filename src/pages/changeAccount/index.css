@@ -1,0 +1,19 @@
+.changemain {
+  min-height: 100vh;
+  background: #EEEEEE;
+  padding: 1rem;
+}
+
+.newBtn {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 0.8rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.newBtn span {
+  color: #333333;
+  margin-left: 0.5rem;
+}

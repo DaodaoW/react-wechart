@@ -1,0 +1,23 @@
+.nobinding {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.nobinding img {
+  width: 3rem;
+}
+
+.newBtn {
+  border-top: 1px solid #E5E5E5;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.newBtn span {
+  margin-left: 0.3rem;
+  font-family: PingFangSC-Regular;
+  font-size: 1.2rem;
+  color: #333333;
+  letter-spacing: 0;
+}

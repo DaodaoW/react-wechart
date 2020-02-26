@@ -1,0 +1,39 @@
+.tips {
+  color: #999999;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding: 0 2rem;
+}
+
+.verifyCode {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+}
+
+.verifyItem {
+  width: 25%;
+  text-align: center;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 3rem;
+  border-bottom: 1px solid #E5E5E5;
+  margin: 0 5px;
+}
+
+.verifyInput {
+  width: calc(100% + 5rem);
+  position: absolute;
+  opacity: 0;
+  top: 55px;
+  left: -5rem;
+}
+
+.verifyInput input {
+  /*
+  * 将input中的光标隐藏
+  */
+  caret-color: transparent;
+}

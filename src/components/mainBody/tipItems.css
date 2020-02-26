@@ -1,0 +1,15 @@
+.tipsitem {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  line-height: 1.3rem;
+}
+
+.image {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.tipsColor {
+  color: #FFFFFF;
+}

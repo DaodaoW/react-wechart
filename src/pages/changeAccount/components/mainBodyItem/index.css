@@ -1,0 +1,41 @@
+.mainitem {
+  display: flex;
+  height: 5.5rem;
+  background: #FFFFFF;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.mainitem img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.mainitemleft {
+  display: flex;
+  align-items: center;
+}
+
+.mainitemleft p {
+  margin: 0.2rem 0.5rem;
+  max-width: 15rem;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.maintips p:nth-child(1) {
+  font-family: PingFangSC-Medium;
+  font-size: 1rem;
+  color: #333333;
+  letter-spacing: 0;
+}
+
+.maintips p:nth-child(2) {
+  font-family: PingFangSC-Medium;
+  font-size: 0.8rem;
+  color: #999999;
+  letter-spacing: 0;
+}

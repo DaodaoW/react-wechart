@@ -1,0 +1,47 @@
+{
+	"rules": {
+		"max-line-length": [true, { "limit": 200 }],
+		"member-access": [true, "no-public"],
+		"curly": [true, "ignore-same-line"],
+		"no-console": true,
+		"only-arrow-functions": [false, "allow-deciarations", "allow-named-functions"],
+		"quotemark": [true, "single"],
+		"indent": [true, "spaces", 2],
+		"no-var-keyword": true,
+		"no-unused-expression": false,
+		"no-use-before-declare": true,
+		"forin": true,
+		"import-spacing": true,
+		"no-empty": false,
+		"no-empty-interface": true,
+		"no-misused-new": true,
+    "no-non-null-assertion": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+		"no-unnecessary-initializer": true,
+		"unified-signatures": true,
+		"one-line": [
+			true,
+			"check-open-brace",
+			"check-catch",
+			"check-else",
+			"check-whitespace"
+		],
+		"comment-format": [
+			true,
+			"check-space"
+		],
+		"whitespace": [
+			true,
+			"check-branch",
+			"check-decl",
+			"check-operator",
+			"check-separator",
+			"check-type"
+		],
+		"prefer-const": false
+	}
+}
